@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhapsode - Privacy Policy</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <style>
+        :root {
+            --bg-primary: #f5f0e6; --bg-secondary: #ebe5d9; --bg-card: #faf7f0;
+            --text-primary: #2c2416; --text-secondary: #5a4530; --text-muted: #8a7055;
+            --accent: #c4622e; --accent-hover: #b05628; --border: #d4bfa8;
+            --shadow: rgba(44, 36, 22, 0.1);
+            --paper-texture: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+        }
+        [data-theme="dark"] {
+            --bg-primary: #1a1612; --bg-secondary: #252019; --bg-card: #2a241c;
+            --text-primary: #e8e0d4; --text-secondary: #c4b098; --text-muted: #8a7055;
+            --accent: #d0703a; --accent-hover: #dc804a; --border: #3d3228; --shadow: rgba(0,0,0,0.3);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { overflow-x: hidden; background-color: var(--bg-primary); }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background-color: var(--bg-primary); color: var(--text-primary); min-height: 100vh; transition: background-color 0.3s, color 0.3s; }
+        body::before { content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-image: var(--paper-texture); opacity: 0.03; pointer-events: none; z-index: 0; }
+        .container { max-width: 700px; margin: 0 auto; padding: 20px; position: relative; z-index: 1; }
+        header { text-align: center; padding: 35px 0 30px; border-bottom: 1px solid var(--border); margin-bottom: 30px; }
+        h1 { font-family: Georgia, 'Times New Roman', serif; font-size: 2.5rem; font-weight: normal; letter-spacing: 0.1em; color: var(--text-primary); margin-bottom: 5px; }
+        .subtitle { font-style: italic; color: var(--text-muted); font-size: 0.9rem; }
+        .content { padding: 10px 0 40px; line-height: 1.7; }
+        .content h2 { font-family: Georgia, 'Times New Roman', serif; font-size: 1.5rem; font-weight: normal; margin-bottom: 20px; color: var(--text-primary); }
+        .content h3 { font-size: 1.05rem; font-weight: 600; margin-top: 25px; margin-bottom: 8px; color: var(--text-primary); }
+        .content p { margin-bottom: 12px; color: var(--text-secondary); font-size: 0.95rem; }
+        .content ul { margin-bottom: 12px; padding-left: 20px; color: var(--text-secondary); font-size: 0.95rem; }
+        .content li { margin-bottom: 6px; }
+        .content a { color: var(--accent); text-decoration: none; }
+        .content a:hover { text-decoration: underline; }
+        .last-updated { font-style: italic; color: var(--text-muted); font-size: 0.85rem; margin-bottom: 20px; }
+        hr { border: none; border-top: 1px solid var(--border); margin: 30px 0; }
+        footer { text-align: center; padding: 30px 20px; margin-top: 40px; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.85rem; }
+        footer a { color: var(--text-muted); text-decoration: none; margin: 0 15px; }
+        footer a:hover { color: var(--accent); text-decoration: underline; }
+        .theme-toggle { position: absolute; top: 65px; right: 35px; background: none; border: 1px solid var(--border); border-radius: 50%; width: 40px; height: 40px; cursor: pointer; color: var(--text-secondary); transition: all 0.3s; display: flex; align-items: center; justify-content: center; z-index: 2; }
+        .theme-toggle:hover { border-color: var(--accent); color: var(--accent); }
+    </style>
+</head>
+<body>
+    <button class="theme-toggle" onclick="toggleTheme()" title="Toggle theme">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+    </button>
+    <div class="container">
+        <header>
+            <h1>RHAPSODE</h1>
+            <p class="subtitle">Privacy Policy</p>
+        </header>
+        <div class="content">
+            <p class="last-updated">Last updated: January 2025</p>
+            <p>Rhapsode (the app) collects and stores the following data when you create an account:</p>
+
+            <h3>WHAT WE COLLECT:</h3>
+            <ul>
+                <li>Email address (for login purposes)</li>
+                <li>Saved poems (poems you add to your collection)</li>
+                <li>Progress data (your memorization progress, stages completed, hints used)</li>
+                <li>Achievements earned</li>
+            </ul>
+
+            <h3>HOW WE USE IT:</h3>
+            <ul>
+                <li>To provide the service and save your progress</li>
+                <li>To sync your data across devices</li>
+                <li>To display your achievements</li>
+                <li>To generate anonymous community statistics (such as "Popular This Week" and trending poems)</li>
+            </ul>
+
+            <h3>COMMUNITY STATISTICS:</h3>
+            <ul>
+                <li>We track which poems are saved and practiced by users</li>
+                <li>This data is aggregated and anonymized to show community trends</li>
+                <li>Your individual activity is never publicly displayed or linked to your identity</li>
+                <li>Example: "Saved by 142 users this week" - we do not show WHO saved it</li>
+            </ul>
+
+            <h3>HOW WE STORE IT:</h3>
+            <ul>
+                <li>Your data is stored securely using Supabase (a cloud database provider)</li>
+                <li>We do not sell or share your personal data with third parties</li>
+                <li>We do not use your data for advertising</li>
+            </ul>
+
+            <h3>YOUR RIGHTS:</h3>
+            <ul>
+                <li>You can delete your account and all associated data at any time from your account settings</li>
+                <li>Account deletion is immediate and permanent</li>
+                <li>Anonymized aggregate data may remain in community statistics after deletion</li>
+            </ul>
+
+            <h3>COOKIES:</h3>
+            <ul>
+                <li>We use browser localStorage to cache data for performance</li>
+                <li>No tracking cookies are used</li>
+            </ul>
+
+            <h3>AGE REQUIREMENT:</h3>
+            <p>You must be 13 years or older to create an account.</p>
+
+            <p style="margin-top: 25px;">By creating an account, you consent to this data collection and data storage, and you affirm that you are at least 13 years of age.</p>
+        </div>
+        <footer>
+            <a href="/">Back to App</a>
+        </footer>
+    </div>
+    <script>
+        function toggleTheme() {
+            var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            document.documentElement.setAttribute('data-theme', isDark ? '' : 'dark');
+            localStorage.setItem('rhapsode_theme', isDark ? 'light' : 'dark');
+        }
+        var saved = localStorage.getItem('rhapsode_theme');
+        if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+    </script>
+</body>
+</html>
